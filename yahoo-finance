@@ -1,0 +1,1 @@
+import pippip.main(['install', 'yahoo-finance'])import numpy as npimport pandas as pdfrom yahoo_finance import Sharefrom pprint import pprintyahoo = Share('YHOO')print (yahoo.get_price())pprint(yahoo.get_historical('2014-04-25', '2014-04-29'))yahoo.get_200day_moving_avg()
